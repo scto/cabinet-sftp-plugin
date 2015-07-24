@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#009688</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_close</item>
+
+        <item name="android:navigationBarColor">?colorPrimary</item>
+    </style>
+
+</resources>

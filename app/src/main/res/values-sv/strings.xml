@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">SFTP för Cabinet</string>
+    <string name="host">Värd</string>
+    <string name="port">Port</string>
+    <string name="username">Användarnamn</string>
+    <string name="password">Lösenord</string>
+    <string name="use_ssh_key">Använd SSH nyckel</string>
+    <string name="ssh_key_path">Sökväg för SSH nyckel</string>
+    <string name="ssh_key_passphrase">Lösenord för SSH nyckel</string>
+    <string name="initial_path">Initial sökväg</string>
+    <string name="initial_path_hint">Initial sökväg (t.ex. /var/www)</string>
+    <string name="test_connection">Testa anslutning</string>
+    <string name="defaultSshPort">22</string>
+    <string name="done">Klar</string>
+    <string name="testing_connection">Testar anslutning...</string>
+    <string name="successful">Lyckades!</string>
+    <string name="error">Fel</string>
+    <string name="error_retry">Fel, försök igen</string>
+    <string name="browse">Bläddra</string>
+</resources>

@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc3"
+
+    signingConfigs {
+        production {
+            keyAlias 'afollestad'
+            keyPassword 'aidan1995'
+            storeFile file('../keystore')
+            storePassword 'aidan1995'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.afollestad.cabinetsftp"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 2
+        versionName "0.1.0.1 Beta"
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.production
+        }
+        release {
+            signingConfig signingConfigs.production
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.jcraft:jsch:0.1.52'
+    compile 'com.afollestad:material-dialogs:0.7.7.0'
+    compile 'com.afollestad:cabinet-plugin-framework:0.1.0'
+}

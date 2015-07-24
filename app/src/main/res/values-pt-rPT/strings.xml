@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">SFTP para o Cabinet</string>
+    <string name="host">Servidor</string>
+    <string name="port">Porta</string>
+    <string name="username">Utilizador</string>
+    <string name="password">Palavra-passe</string>
+    <string name="use_ssh_key">Utilizar chave SSH</string>
+    <string name="ssh_key_path">Caminho da chave SSH</string>
+    <string name="ssh_key_passphrase">Palavra-passe da chave SSH</string>
+    <string name="initial_path">Caminho inicial</string>
+    <string name="initial_path_hint">Caminho inicial (ex.: /var/www)</string>
+    <string name="test_connection">Testar ligação</string>
+    <string name="defaultSshPort">22</string>
+    <string name="done">Terminado</string>
+    <string name="testing_connection">Teste da ligação...</string>
+    <string name="successful">Bem sucedido!</string>
+    <string name="error">Erro</string>
+    <string name="error_retry">Erro. Tente novamente.</string>
+    <string name="browse">Explorar</string>
+</resources>

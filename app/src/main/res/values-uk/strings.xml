@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">SFTP for Cabinet</string>
+    <string name="host">Хост</string>
+    <string name="port">Порт</string>
+    <string name="username">Логін</string>
+    <string name="password">Пароль</string>
+    <string name="use_ssh_key">Використовувати SSH Key</string>
+    <string name="ssh_key_path">Шлях SSH Key</string>
+    <string name="ssh_key_passphrase">SSH Key Passphrase</string>
+    <string name="initial_path">Початковий шлях</string>
+    <string name="initial_path_hint">Початковий шлях (напр. /var/www)</string>
+    <string name="test_connection">Тест з\'єднання</string>
+    <string name="defaultSshPort">22</string>
+    <string name="done">Готово</string>
+    <string name="testing_connection">Тестую з\'єднання...</string>
+    <string name="successful">Вдало!</string>
+    <string name="error">Помилка</string>
+    <string name="error_retry">Помилка, спробуйте знову</string>
+    <string name="browse">Вибрати</string>
+</resources>

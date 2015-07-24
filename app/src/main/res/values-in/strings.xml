@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">SFTP untuk Kabinet</string>
+    <string name="host">Host</string>
+    <string name="port">Penghubung</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="use_ssh_key">Gunakan kunci SSH</string>
+    <string name="ssh_key_path">Lokasi Kunci SSH</string>
+    <string name="ssh_key_passphrase">Kata kunci SSH</string>
+    <string name="initial_path">Lokasi awal</string>
+    <string name="initial_path_hint">Lokasi utama (misal. /var/www)</string>
+    <string name="test_connection">Tes Koneksi</string>
+    <string name="defaultSshPort">Dua puluh dua</string>
+    <string name="done">Selesai</string>
+    <string name="testing_connection">Pengecekan koneksi...</string>
+    <string name="successful">Sukses!</string>
+    <string name="error">Kesalahan</string>
+    <string name="error_retry">Kesalahan, Coba lagi</string>
+    <string name="browse">Cari</string>
+</resources>
